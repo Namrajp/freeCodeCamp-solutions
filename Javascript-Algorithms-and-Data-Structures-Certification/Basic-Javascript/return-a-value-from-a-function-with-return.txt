@@ -1,0 +1,7 @@
+function timesFive(num) {
+  return num * 5;
+
+}
+
+var result = timesFive(8);
+console.log(result)
