@@ -1,0 +1,11 @@
+function reverseString(str) {
+  let result = "";
+  for (let i=0; i<str.length; i++) {
+    let temp = str[i];
+    result = temp + result;
+  }
+  return result;
+}
+
+console.log(reverseString("hello") );
+console.log(reverseString("Namaraj"));
